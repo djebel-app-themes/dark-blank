@@ -1,8 +1,8 @@
 <?php
 /*
-theme_name: Djebel Blank
-theme_uri: https://djebel.com/themes/blank
-description: blank theme
+theme_name: Djebel Dark Blank
+theme_uri: https://djebel.com/themes/dark-blank
+description: dark blank theme
 version: 1.0.0
 tags: sample, theme, blog, site
 stable_version: 1.0.0
@@ -12,7 +12,7 @@ tested_with_dj_app_ver: 1.0.0
 author_name: Svetoslav Marinov (Slavi)
 company_name: Orbisius
 author_uri: https://orbisius.com
-text_domain: djebel-app-theme-blank
+text_domain: djebel-app-theme-dark-blank
 */
 ?>
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ text_domain: djebel-app-theme-blank
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Minimal CSS - Clean, centered design */
+        /* Minimal CSS - Clean, centered design - Dark Mode */
         * {
             margin: 0;
             padding: 0;
@@ -31,8 +31,8 @@ text_domain: djebel-app-theme-blank
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #fafafa;
+            color: #e5e5e5;
+            background-color: #1a1a1a;
             min-height: 100vh;
         }
         
@@ -47,10 +47,10 @@ text_domain: djebel-app-theme-blank
         
         .dj-app-content {
             flex: 1;
-            background: white;
+            background: #2d2d2d;
             padding: 3rem 2rem;
             border-radius: 12px;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
         }
         
         .dj-app-page-content {
@@ -64,7 +64,7 @@ text_domain: djebel-app-theme-blank
         .dj-app-page-content h5,
         .dj-app-page-content h6 {
             margin-bottom: 1rem;
-            color: #2c3e50;
+            color: #f0f0f0;
             font-weight: 600;
         }
         
@@ -97,20 +97,20 @@ text_domain: djebel-app-theme-blank
         }
         
         .dj-app-page-content a {
-            color: #3498db;
+            color: #5dade2;
             text-decoration: none;
             border-bottom: 1px solid transparent;
             transition: border-color 0.2s ease;
         }
         
         .dj-app-page-content a:hover {
-            border-bottom-color: #3498db;
+            border-bottom-color: #5dade2;
         }
         
         .dj-app-footer {
             text-align: center;
             padding: 1rem 0;
-            color: #7f8c8d;
+            color: #a0a0a0;
             font-size: 0.9rem;
         }
         
